@@ -148,17 +148,18 @@ body {
   transition: width 0.4s 0.1s;
 }
 
-/*.input:checked + .item .goo {
+.input:checked+.item .goo {
   background-color: #fff;
   -webkit-transform: scale(40);
-          transform: scale(40);
+  transform: scale(40);
   opacity: 1;
   -webkit-transition: opacity 0, -webkit-transform 0.3s cubic-bezier(1, -0.46, 0.41, 1.34);
   transition: opacity 0, -webkit-transform 0.3s cubic-bezier(1, -0.46, 0.41, 1.34);
   transition: transform 0.3s cubic-bezier(1, -0.46, 0.41, 1.34), opacity 0;
   transition: transform 0.3s cubic-bezier(1, -0.46, 0.41, 1.34), opacity 0, -webkit-transform 0.3s cubic-bezier(1, -0.46, 0.41, 1.34);
 }
-.input:checked + .item + .stuff {
+
+/*.input:checked + .item + .stuff {
   float: right;
 }
 
