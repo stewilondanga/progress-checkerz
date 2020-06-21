@@ -290,18 +290,17 @@ body {
   height: 1em;
 }
 
-/*.input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .end .goo {
+.input:checked~.input:checked~.input:checked~.input:checked~.input:checked~.end .goo {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   left: 35%;
   top: 17%;
   -webkit-transform: scale(4);
-          transform: scale(4);
+  transform: scale(4);
   opacity: 1;
 }
 
-
-.viewport {
+/*.viewport {
   font-family: "Avenir", sans-serif;
   font-size: 1.3em;
   display: -webkit-box;
