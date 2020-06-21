@@ -280,7 +280,7 @@ body {
   height: 3em;
 }
 
-/*.input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .end {
+.input:checked~.input:checked~.input:checked~.input:checked~.input:checked~.end {
   opacity: 1;
   top: 33px;
   right: calc(0% + 65px);
@@ -289,7 +289,8 @@ body {
   width: 1em;
   height: 1em;
 }
-.input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .end .goo {
+
+/*.input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .input:checked ~ .end .goo {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   left: 35%;
