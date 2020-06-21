@@ -221,7 +221,7 @@ body {
   transform: rotateZ(-135deg);
 }
 
-/*.btn-toggle {
+.btn-toggle {
   position: absolute;
   top: 1em;
   right: 1em;
@@ -232,7 +232,8 @@ body {
   width: 20px;
   height: 20px;
 }
-.btn-toggle::after {
+
+/*.btn-toggle::after {
   content: "";
   display: block;
   border: 2px solid #89a;
