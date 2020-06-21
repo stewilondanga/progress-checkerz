@@ -134,10 +134,11 @@ body {
   margin-bottom: 1rem;
 }
 
-/*.input:checked + .item .item__text::after {
+.input:checked+.item .item__text::after {
   width: 105%;
 }
-.input:checked + .item .pseudo-check {
+
+/*.input:checked + .item .pseudo-check {
   background: #39d76e;
 }
 .input:checked + .item + .progress {
