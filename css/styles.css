@@ -24,7 +24,7 @@ body {
   display: none;
 }
 
-/*.pseudo-check {
+.pseudo-check {
   display: inline-block;
   border-radius: 0.4em;
   vertical-align: middle;
@@ -37,7 +37,7 @@ body {
   height: 1.3em;
 }
 
-.checkmark {
+/*.checkmark {
   position: relative;
   margin: 25% 20%;
   -webkit-clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
