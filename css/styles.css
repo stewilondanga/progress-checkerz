@@ -207,14 +207,15 @@ body {
   display: none;
 }
 
-/*.toggle:checked ~ .item .item__content {
+.toggle:checked~.item .item__content {
   margin-bottom: 0em;
   -webkit-transform: rotateX(0deg);
-          transform: rotateX(0deg);
+  transform: rotateX(0deg);
   -webkit-transition: all 0.23s calc(var(--item) * .16s) cubic-bezier(0.28, -0.54, 0.45, 2.1);
   transition: all 0.23s calc(var(--item) * .16s) cubic-bezier(0.28, -0.54, 0.45, 2.1);
 }
-.toggle:checked + .btn-toggle::after {
+
+/*.toggle:checked + .btn-toggle::after {
   top: 35%;
   -webkit-transform: rotateZ(-135deg);
           transform: rotateZ(-135deg);
