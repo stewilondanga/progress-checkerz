@@ -317,7 +317,7 @@ body {
   background: linear-gradient(to top, #2a037d, #5a3fb9);
 }
 
-/*.viewport::after {
+.viewport::after {
   content: "";
   display: block;
   position: absolute;
@@ -330,7 +330,7 @@ body {
   height: 80vh;
 }
 
-
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
