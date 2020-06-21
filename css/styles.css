@@ -142,12 +142,13 @@ body {
   background: #39d76e;
 }
 
-/*.input:checked + .item + .progress {
+.input:checked+.item+.progress {
   width: 20%;
   -webkit-transition: width 0.4s 0.1s;
   transition: width 0.4s 0.1s;
 }
-.input:checked + .item .goo {
+
+/*.input:checked + .item .goo {
   background-color: #fff;
   -webkit-transform: scale(40);
           transform: scale(40);
