@@ -189,9 +189,9 @@ body {
   order: 0;
 }
 
-/*.title {
+.title {
   -webkit-box-ordinal-group: -3;
-          order: -4;
+  order: -4;
   width: 100%;
   margin-top: 0;
   margin-bottom: -5px;
@@ -203,7 +203,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.toggle {
+/*.toggle {
   display: none;
 }
 
