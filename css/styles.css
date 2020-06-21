@@ -95,10 +95,11 @@ body {
   backface-visibility: hidden;
 }
 
-/*.item:first-of-type .item__content {
+.item:first-of-type .item__content {
   border-top: none;
 }
-.item__text {
+
+/*.item__text {
   position: relative;
   max-width: calc(100% - 1.8em);
   overflow: hidden;
