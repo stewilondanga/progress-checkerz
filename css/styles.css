@@ -37,16 +37,16 @@ body {
   height: 1.3em;
 }
 
-/*.checkmark {
+.checkmark {
   position: relative;
   margin: 25% 20%;
   -webkit-clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
-          clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
+  clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
   width: 0.75em;
   height: 0.75em;
 }
 
-.goo {
+/*.goo {
   border-radius: 50%;
   background-color: #fff;
   background-color: #39d76e;
