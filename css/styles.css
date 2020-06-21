@@ -252,25 +252,26 @@ body {
   height: 8px;
 }
 
-/*.end {
+.end {
   display: block;
   opacity: 0;
   pointer-events: none;
   -webkit-clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
-          clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
+  clip-path: polygon(0 56%, 35% 87%, 100% 15%, 85% 0, 34% 56%, 15% 39%);
   width: 8em;
   height: 8em;
   position: absolute;
   top: 230px;
   right: calc(50% + 0px);
   -webkit-transform: translate(50%, -50%);
-          transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
   z-index: 4;
   overflow: hidden;
   -webkit-transition: opacity 0.1s, all 0 0.4s;
   transition: opacity 0.1s, all 0 0.4s;
 }
-.end .goo {
+
+/*.end .goo {
   background: -webkit-gradient(linear, left top, left bottom, from(#ff3052), to(#ff51b6));
   background: linear-gradient(#ff3052, #ff51b6);
   -webkit-transform: scale(1);
