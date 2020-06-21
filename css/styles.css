@@ -203,11 +203,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*.toggle {
+.toggle {
   display: none;
 }
 
-.toggle:checked ~ .item .item__content {
+/*.toggle:checked ~ .item .item__content {
   margin-bottom: 0em;
   -webkit-transform: rotateX(0deg);
           transform: rotateX(0deg);
