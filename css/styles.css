@@ -138,10 +138,11 @@ body {
   width: 105%;
 }
 
-/*.input:checked + .item .pseudo-check {
+.input:checked+.item .pseudo-check {
   background: #39d76e;
 }
-.input:checked + .item + .progress {
+
+/*.input:checked + .item + .progress {
   width: 20%;
   -webkit-transition: width 0.4s 0.1s;
   transition: width 0.4s 0.1s;
