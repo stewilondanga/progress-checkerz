@@ -99,7 +99,7 @@ body {
   border-top: none;
 }
 
-/*.item__text {
+.item__text {
   position: relative;
   max-width: calc(100% - 1.8em);
   overflow: hidden;
@@ -108,7 +108,8 @@ body {
   display: inline-block;
   white-space: nowrap;
 }
-.item__text::after {
+
+/*.item__text::after {
   content: "";
   display: block;
   height: 2px;
